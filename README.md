@@ -1,7 +1,7 @@
 # NewDay assignment
 
 ## Spark submit command to submit the saprk job. Update the configuration based on your spark cluster
-    ```
+    
     spark-submit \
         --master <your_spark_master_url> \
         --conf spark.executor.memory=4g \
@@ -9,7 +9,7 @@
         --conf spark.executor.cores=2 \
         --conf spark.driver.cores=1 \
         movies_ratings_analysis.py
-    ```
+    
 
 - Replace <your_spark_master_url> with the URL of your Spark master. Make sure to configure Spark accordingly for your environment. 
 
