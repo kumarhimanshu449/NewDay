@@ -7,7 +7,7 @@ from pyspark.sql.window import Window
 if __name__ == "__main__":
     # Create a Spark session
     spark = SparkSession.builder \
-            .appName("newday_app") \
+            .appName("movies_ratings_analysis_app") \
             .getOrCreate()
     
     # If you are running spark on a cluster you can change and add below spark configurations accordingly
